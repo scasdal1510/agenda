@@ -60,6 +60,9 @@ La tabla principal de nuestra aplicación tiene el siguiente formato:
 | `email`    | String  | Correo electrónico validado      |
 | `status`   | Boolean | Estado de activación             |
 
+# Lógica del Sistema
+El proceso de registro de un nuevo usuario sigue el flujo mostrado en este diagrama:
+
 ```mermaid
 graph TD
 A[Formulario registro] --> B{Validar datos}
